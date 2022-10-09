@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5405/uni-db"
+    username: "uni-db"
+    password: "uni-db#1234"
+
+auth:
+  secret: test123
+  header: Authorization

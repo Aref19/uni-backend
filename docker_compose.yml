@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  evi-news-service-db:
+    image: postgres
+    environment:
+      POSTGRES_USER: uni-db
+      POSTGRES_PASSWORD: uni-db#1234
+      POSTGRES_DB: uni-db
+    ports:
+      - "5405:5432"
